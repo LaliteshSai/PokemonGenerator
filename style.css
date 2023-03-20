@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@300;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-color: rgb(204, 255, 255);
+}
+
+.container{
+    /* border: 1px solid black; */
+    width: 350px;
+    position: absolute;
+    /* max-height: 200px; */
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    
+}
+#card{
+    /* max-height: 200px; */
+    /* background: radial-gradient(circle at 50% 0%, orange 38%,#ffffff 36%); */
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    padding: 30px 20px ;
+    /* position: relative; */
+    border-radius: 12px;
+}
+.hp{
+    padding: 10px 5px ;
+    margin: 12px 5px ;
+    background-color: #ffffff;
+    width: 80px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    font-weight: 500;
+
+}
+#card img{
+    display: block;
+    position: relative;
+    width: 180px;
+    max-height: 200px;
+    margin: 20px auto;
+}
+#poke-name{
+    font-size: 30px;
+    padding: 5px 0 15px 0;
+    text-align: center;
+    /* max-height: 200px; */
+}
+.types{
+    display:flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 10px 0 ;
+    
+}
+.stats{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.special-stats{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.stats div h3, .special-stats div h3{
+    padding-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.stats div p, .special-stats div p{
+    font-size: 19px;
+    font-weight: 500;
+    color: rgb(87, 84, 84);
+}
+
+#btn{
+    margin: 30px auto;
+    padding: 12px 60px;
+    font-size: large;
+    display: block;
+    background-color: rgb(12, 12, 12);
+    color: #ffffff;
+    border-radius: 8px;
+    
+}
+#btn:hover{
+    cursor: pointer;
+}
+
+.types span{
+    padding: 6px 12px;
+    border-radius: 8px;
+    color: #ffffff;
+    
+}
+.hp{
+    font-size: 20px;
+}
+.hp span{
+    padding-right: 4px;
+    font-size: small;
+
+}
